@@ -2,7 +2,7 @@ const { override, fixBabelImports, addLessLoader, setWebpackPublicPath } = requi
 
 
 module.exports = override(
-    setWebpackPublicPath('/react-share'),
+    setWebpackPublicPath('/react-share/build'),
     fixBabelImports('import', {
         libaryName: 'antd',
         libaryDirectory: 'es',
