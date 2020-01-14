@@ -26,3 +26,5 @@ yarn test
 ```
 yarn eject
 ```
+
+if you want to test the apollo demo, you can load the project [graphql-node-mock](https://github.com/marsspecies/graphql-node-mock) then run the server in your local.
