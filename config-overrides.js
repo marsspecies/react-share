@@ -1,7 +1,8 @@
-const { override, fixBabelImports, addLessLoader } = require('customize-cra');
+const { override, fixBabelImports, addLessLoader, setWebpackPublicPath } = require('customize-cra');
 
 
 module.exports = override(
+    setWebpackPublicPath('/react-share'),
     fixBabelImports('import', {
         libaryName: 'antd',
         libaryDirectory: 'es',
