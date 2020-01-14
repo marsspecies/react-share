@@ -1,0 +1,2 @@
+(this.webpackJsonpdemo1=this.webpackJsonpdemo1||[]).push([[21],{245:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),i=function(e){var n=e.list;return r.a.createElement("div",null,n.map((function(e,n){return r.a.createElement("p",{key:n},e.name)})))};n.default=function(e){return r.a.createElement("div",null,r.a.createElement(i,{list:[{name:"zhangjing"},{name:"Karen"}]}))}}}]);
+//# sourceMappingURL=21.a008d186.chunk.js.map

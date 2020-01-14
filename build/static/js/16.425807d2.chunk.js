@@ -1,0 +1,2 @@
+(this.webpackJsonpdemo1=this.webpackJsonpdemo1||[]).push([[16],{256:function(e,t,n){"use strict";n.r(t);var u=n(0),a=n.n(u),c=n(13);t.default=function(e){var t=Object(c.g)();return Object(u.useEffect)((function(){var e=setTimeout((function(){t.push("/"),clearTimeout(e)}),3e3)})),a.a.createElement(a.a.Fragment,null,a.a.createElement("div",null,"404 not Found"))}}}]);
+//# sourceMappingURL=16.425807d2.chunk.js.map
