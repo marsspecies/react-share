@@ -1,8 +1,8 @@
 const { override, fixBabelImports, addLessLoader, setWebpackPublicPath } = require('customize-cra');
-
+const ENV = process.env.NODE_ENV;
 
 module.exports = override(
-    setWebpackPublicPath('/react-share/build'),
+    ENV === 'production' ? setWebpackPublicPath('/react-share/build') : null,
     fixBabelImports('import', {
         libaryName: 'antd',
         libaryDirectory: 'es',
